@@ -9,7 +9,7 @@ Open_page_with_chrome
     Open Browser    https://www.google.com/    chrome    remote_url=http://localhost:4444/wd/hub
     Input Text    name=q    robot framework
     Press Keys    None    ENTER
-    Wait Until Page Contains Element    link=Robot Framework    10s
+    Wait Until Page Contains Element    xpath=//div[@id='rso']/div/div/div/div/div/div/a/h3    10s
     Click Link    Robot Framework
     Log To Console    Successfully opened page
 	
